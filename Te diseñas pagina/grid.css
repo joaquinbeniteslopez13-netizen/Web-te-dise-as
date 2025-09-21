@@ -1,0 +1,19 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+    width: 100%px;
+}
+
+.col-1{width: 8.33% ;}
+.col-2{width: 16.66%;}
